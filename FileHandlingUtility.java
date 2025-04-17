@@ -7,7 +7,7 @@ public class FileHandlingUtility {
         String fileName = "CodTech_file.txt";
 
         try {
-            // 1️ WRITE: Create and write initial content
+            // 1 WRITE: Create and write initial content
 
             FileWriter writer = new FileWriter(fileName);
             writer.write(" CodTech Internship File Handling Task\n");
@@ -15,7 +15,7 @@ public class FileHandlingUtility {
             writer.close();
             System.out.println(" File created and initial content written to '" + fileName + "'\n");
 
-            // 2️ READ: Display current file content
+            // 2 READ: Display current file content
 
             System.out.println(" Reading contents of '" + fileName + "':\n");
             BufferedReader reader = new BufferedReader(new FileReader(fileName));
@@ -25,7 +25,7 @@ public class FileHandlingUtility {
             }
             reader.close();
 
-            // 3️ MODIFY: Update content to the file
+            // 3 MODIFY: Update content to the file
 
             System.out.print(" Enter a line to append to the file: ");
             String newLine = scanner.nextLine();
