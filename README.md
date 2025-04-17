@@ -15,4 +15,7 @@
  - This task helps interns understand the fundamental concepts of Java I/O streams, including the 
    use of FileWriter, FileReader, and BufferedReader. It emphasizes the importance of efficient file 
    manipulation and proper exception handling.
+
+   # Output
+   ![Image](https://github.com/user-attachments/assets/e508cac8-9a8a-499c-beb1-377f5b682a8c)
   
